@@ -12,15 +12,15 @@
 <body>
   <div class="topnav">
     <a class="home" href="#home">Home</a>
-    <a class="right" href="">Sign Up</a>
-    <a class="right" href="login.html">Log In</a>
+    <a href="<?php echo site_url('welcome/signup');?>" class="right">Sign Up</a>
+    <a href="<?php echo site_url('welcome/login');?>" class="right">Log In</a>
   </div>
   
   <div class="s006">
 
     <form>
       <fieldset>
-        <legend>Pengen belajar apa Roy?</legend>
+        <legend>Pengen belajar apa?</legend>
         <div class="inner-form">
           <div class="input-field">
             <button class="btn-search" type="button">
