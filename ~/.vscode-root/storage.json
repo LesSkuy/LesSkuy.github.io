@@ -1,10 +1,7 @@
 {
     "telemetry.machineId": "346edef1e2920a8dc925f077c99db89462e4cdca1617e8873a0a9b9d3f1319c9",
     "openedPathsList": {
-        "workspaces3": [
-            "file:///opt/lampp/htdocs/lesskuy",
-            "file:///opt/lampp/htdocs/myproject"
-        ],
+        "workspaces3": [],
         "files2": []
     },
     "lastKnownMenubarData": {
@@ -57,17 +54,6 @@
                                     },
                                     "enabled": true,
                                     "label": "/opt/lampp/htdocs/lesskuy"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///opt/lampp/htdocs/myproject",
-                                        "path": "/opt/lampp/htdocs/myproject",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/opt/lampp/htdocs/myproject"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

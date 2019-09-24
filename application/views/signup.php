@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100" >
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="<?php echo site_url('welcome');?>" method="post">
 					<span class="login100-form-title p-b-49">
 						Sign Up
 					</span>
@@ -68,7 +68,7 @@
 
 					<div class="flex-col-c p-t-20">
 						Already have an account? 
-						<a href="<?php echo site_url('welcome');?>" class="txt2">
+						<a href="<?php echo site_url('welcome/login');?>" class="txt2">
 							Log In
 						</a>
 					</div>

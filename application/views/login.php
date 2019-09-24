@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100" >
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="<?php echo site_url('welcome');?>" method="post">
 					<span class="login100-form-title p-b-49">
 						Login
 					</span>
@@ -45,22 +45,22 @@
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<input class="input100" type="password" name="password" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
-					<div class="container-login100-form-btn">
+					<a href="<?php echo site_url('welcome');?>"><div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
 							<button class="login100-form-btn">
 								Login
 							</button>
 						</div>
-					</div>
+					</div></a>
 
 					<div class="flex-col-c p-t-20">
 						Don't have an account? 
-						<a href="#" class="txt2">
+						<a href="<?php echo site_url('welcome/signup');?>" class="txt2">
 							Sign Up
 						</a>
 					</div>
