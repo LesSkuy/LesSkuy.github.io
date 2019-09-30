@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100" >
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form" action="<?php echo site_url('welcome');?>" method="post">
+				<form class="login100-form validate-form" action="<?php echo site_url('signup/save');?>" method="post">
 					<span class="login100-form-title p-b-49">
 						Sign Up
 					</span>
@@ -49,7 +49,7 @@
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
 						<span class="label-input100">Re Password</span>
-						<input class="input100" type="password" name="username" placeholder="Repeat your password">
+						<input class="input100" type="password2" name="username" placeholder="Repeat your password">
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate="Password is required">
