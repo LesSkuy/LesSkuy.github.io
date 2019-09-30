@@ -44,17 +44,17 @@
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate="Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<input class="input100" type="password" name="password" placeholder="Type your password">
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
 						<span class="label-input100">Re Password</span>
-						<input class="input100" type="password2" name="username" placeholder="Repeat your password">
+						<input class="input100" type="password" name="password2" placeholder="Repeat your password">
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate="Password is required">
 						<span class="label-input100">Email</span>
-						<input class="input100" type="email" name="pass" placeholder="Type your email">
+						<input class="input100" type="email" name="email" placeholder="Type your email">
 					</div>
 					
 					<div class="container-login100-form-btn">

@@ -12,12 +12,12 @@ class Signup extends CI_Controller {
 		$this->load->view('signup');
     }
 
-    function save(){
-        $username = $this->input->post('username');
-        $password = $this->input->post('password');
-        $email = $this->input->post('email');
-        $this->signup_model->add_pelajar($username,$password,$email);
-        redirect('product');
-      }
+  function save(){
+    $username = $this->input->post('username');
+    $password = $this->input->post('password');
+    $email = $this->input->post('email');
+    $this->signup_model->add_pelajar($username,$password,$email);
+    redirect('welcome');
+  }
     
 }
